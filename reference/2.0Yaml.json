@@ -5,7 +5,18 @@
   },
   "info": {
     "title": "2.0Yaml",
-    "version": "1.0"
+    "version": "1.0",
+    "description": "Test",
+    "contact": {
+      "name": "name",
+      "url": "http://localhost:3000",
+      "email": "post-user"
+    },
+    "termsOfService": "https://api.example.com",
+    "license": {
+      "name": "localhost:3000",
+      "url": "http://localhost:3000"
+    }
   },
   "host": "localhost:3000",
   "schemes": [
@@ -276,5 +287,17 @@
         "id": "gydxgd77kaolz"
       }
     }
-  }
+  },
+  "securityDefinitions": {
+    "apiKey_1": {
+      "name": "apiKey",
+      "type": "apiKey",
+      "in": "query"
+    }
+  },
+  "security": [
+    {
+      "apiKey_1": []
+    }
+  ]
 }
