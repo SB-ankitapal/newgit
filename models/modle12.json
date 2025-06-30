@@ -1,0 +1,31 @@
+{
+  "title": "modle12",
+  "x-stoplight": {
+    "id": "ceoiwgegue9gn"
+  },
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "x-stoplight": {
+        "id": "i4ww6o4mm9cb3"
+      }
+    },
+    "test1": {
+      "type": "string",
+      "x-stoplight": {
+        "id": "2t3zapw73s6g0"
+      }
+    },
+    "refer1": {
+      "$ref": "./model1.yaml",
+      "x-stoplight": {
+        "id": "69ar20bpkjwjz"
+      }
+    }
+  },
+  "description": "model12",
+  "x-tags": [
+    "model2"
+  ]
+}
